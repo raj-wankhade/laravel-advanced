@@ -76,3 +76,9 @@ php artisan migrate:rollback // in case, we want to rollback
 php artisan make:migration add_role_to_users_table
 
 <!-- then add column into migration file for users table -->
+
+<!-- To create a middleware -->
+
+php artisan make:middleware CheckUserRole
+
+<!-- then register a middleware in Kernel.php -->
