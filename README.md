@@ -70,3 +70,9 @@ php artisan make:model ScheduledClass -m
 edit files then run
 php artisan migrate
 php artisan migrate:rollback // in case, we want to rollback
+
+<!-- Add column to table -->
+
+php artisan make:migration add_role_to_users_table
+
+<!-- then add column into migration file for users table -->
