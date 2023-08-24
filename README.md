@@ -82,3 +82,11 @@ php artisan make:migration add_role_to_users_table
 php artisan make:middleware CheckUserRole
 
 <!-- then register a middleware in Kernel.php -->
+
+<!-- Create scheduledClassController -->
+
+php artisan make:controller ScheduledClasseController --resource
+
+<!-- To check the route list -->
+
+php artisan route:list
